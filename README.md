@@ -1,4 +1,4 @@
-# Orion Touch Bar
+# Orion Touch Bar Patch
 <p align="center">
   <img src="docs/touch-bar.png" alt="Touch Bar with Orion controls" width="720" />
 </p>
