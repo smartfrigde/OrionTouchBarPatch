@@ -1,0 +1,62 @@
+# Xcode
+DerivedData/
+build/
+Build/
+*.xcuserstate
+*.xcuserdata
+xcuserdata/
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Xcode workspace (keep shared schemes)
+*.xcworkspace/xcuserdata/
+!*.xcodeproj/project.xcworkspace/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/
+
+# Swift Package Manager
+.build/
+Packages/
+Package.resolved
+.swiftpm/
+
+playground.xcworkspace
+
+# OS / editor
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+*.swp
+*~
+.idea/
+.vscode/
+*.code-workspace
+
+# Archives & packaging
+*.dmg
+*.pkg
+*.app
+!**/AppIcon.appiconset/**
+dist/
+
+# Signing / secrets
+*.mobileprovision
+*.provisionprofile
+*.p12
+*.cer
+*.certSigningRequest
+AuthKey_*.p8
+secrets/
+.env
+.env.*
+
+# Logs / crash
+*.log
+crashlog.txt
